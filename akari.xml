@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Custom Xperia XZ2 Device Tree (Your Fork) -->
+  <project name="s0711482299-lgtm/android_device_sony_akari" path="device/sony/akari" remote="github" revision="lineage-19.1" />
+
+  <!-- Common Platform & Hardware HALs -->
+  <project name="LineageOS/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
+  <project name="LineageOS/android_hardware_sony" path="hardware/sony" remote="github" revision="lineage-19.1" />
+
+  <!-- SDM845 Kernel Tree -->
+  <project name="LineageOS/android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="github" revision="lineage-19.1" />
+
+  <!-- Proprietary Vendor Blobs -->
+  <project name="TheMuppets/proprietary_vendor_sony_akari" path="vendor/sony/akari" remote="github" revision="lineage-19.1" />
+  <project name="TheMuppets/proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="github" revision="lineage-19.1" />
+
+</manifest>
