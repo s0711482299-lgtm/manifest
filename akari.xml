@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remove Dead PE GitLab Fetch -->
+  <remove-project name="external_faceunlock" />
 
-  <!-- Xperia XZ2 Device Tree (Your Fork) -->
+  <!-- Sony Device & Platform Trees -->
   <project name="s0711482299-lgtm/android_device_sony_akari" path="device/sony/akari" remote="github" revision="lineage-19.1" />
-
-  <!-- Common Platform & Hardware HALs -->
   <project name="LineageOS/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
   <project name="LineageOS/android_hardware_sony" path="hardware/sony" remote="github" revision="lineage-19.1" />
 
-  <!-- SDM845 Kernel Source -->
+  <!-- Qualcomm SEPolicy Fix -->
+  <project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" revision="lineage-19.1" />
+
+  <!-- SDM845 Kernel & Vendor Blobs -->
   <project name="LineageOS/android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="github" revision="lineage-19.1" />
-
-  <!-- Unified Proprietary Vendor Blobs -->
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lineage-19.1" />
-
 </manifest>
