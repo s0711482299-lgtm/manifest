@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remove Dead PE GitLab Fetch -->
-  <remove-project name="external_faceunlock" />
+  <!-- Add Dead PE GitLab Fetch -->
+  <project path="external/faceunlock" name="PixelExperienceArchive/external_faceunlock" revision="twelve" />
 
   <!-- Sony Device & Platform Trees -->
   <project name="s0711482299-lgtm/android_device_sony_akari" path="device/sony/akari" remote="github" revision="lineage-19.1" />
-  <project name="LineageOS/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
+  <project name="s0711482299-lgtm/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
   <project name="LineageOS/android_hardware_sony" path="hardware/sony" remote="github" revision="lineage-19.1" />
 
   
