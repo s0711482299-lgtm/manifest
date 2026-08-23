@@ -1,14 +1,14 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Add Dead PE GitLab Fetch -->
-  <project path="external/faceunlock" name="PixelExperienceArchive/external_faceunlock" revision="twelve" />
+  <!-- Faceunlock Framework Dependency -->
+  <project name="PixelExperienceArchive/external_faceunlock" path="external/faceunlock" remote="github" revision="twelve" />
 
   <!-- Sony Device & Platform Trees -->
   <project name="s0711482299-lgtm/android_device_sony_akari" path="device/sony/akari" remote="github" revision="lineage-19.1" />
   <project name="s0711482299-lgtm/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
   <project name="LineageOS/android_hardware_sony" path="hardware/sony" remote="github" revision="lineage-19.1" />
 
-  
   <!-- SDM845 Kernel & Vendor Blobs -->
   <project name="LineageOS/android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="github" revision="lineage-19.1" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lineage-19.1" />
