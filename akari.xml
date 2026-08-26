@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Completely disable upstream Faceunlock -->
-  <remove-project name="PixelExperience/external_faceunlock" />
-  <remove-project name="external/faceunlock" />
-
-  
   <!-- Sony Device & Platform Trees -->
   <project name="s0711482299-lgtm/android_device_sony_akari" path="device/sony/akari" remote="github" revision="lineage-19.1" />
   <project name="s0711482299-lgtm/android_device_sony_tama-common" path="device/sony/tama-common" remote="github" revision="lineage-19.1" />
