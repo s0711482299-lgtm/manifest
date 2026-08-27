@@ -31,6 +31,8 @@
         remote="github"
         revision="lineage-19.1" />
 
+    <remove-project path="hardware/lineage/interfaces" />
+
     <project
         name="LineageOS/android_hardware_lineage_interfaces"
         path="hardware/lineage/interfaces"
