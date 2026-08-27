@@ -34,7 +34,7 @@
     <remove-project path="hardware/lineage/interfaces" />
 
     <project
-        name="LineageOS/android_hardware_lineage_interfaces"
+        name="s0711482299-lgtm/android_hardware_lineage_interfaces"
         path="hardware/lineage/interfaces"
         remote="github"
         revision="lineage-19.1" />
