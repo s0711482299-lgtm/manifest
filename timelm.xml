@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remotes -->
-  <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <!-- Device trees -->
   <project name="s0711482299-lgtm/device_lge_timelm" path="device/lge/timelm" remote="github" revision="Rising" />
@@ -11,9 +9,10 @@
 
   <!-- Kernel -->
   <project name="lge-timelm-dev/android_kernel_lge_sm8250" path="kernel/lge/sm8250" remote="github" revision="lineage-23.2" />
-  
+
   <!-- Vendor -->
   <project name="s0711482299-lgtm/vendor_lge_timelm" path="vendor/lge/timelm" remote="github" revision="bka" />
-  <project name="DerpFest/vendor_google_gms" path="vendor/gms" remote="gitlab" revision="16" />
+
+  <remove-project path="vendor/gms" />
 
 </manifest>
