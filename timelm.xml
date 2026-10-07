@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Device trees -->
-  <project name="s0711482299-lgtm/device_lge_timelm" path="device/lge/timelm" remote="github" revision="rising" />
+  <project name="s0711482299-lgtm/device_lge_timelm" path="device/lge/timelm" remote="github" revision="Bliss" />
 
   <!-- Hardware -->
   <project name="s0711482299-lgtm/hardware_lge" path="hardware/lge" remote="github" revision="bka" />
