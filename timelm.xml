@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Lineage interfaces (provides power-libperfmgr service) -->
+  <project name="LineageOS/android_hardware_lineage_interfaces"
+           path="hardware/lineage/interfaces"
+           remote="github"
+           revision="refs/heads/lineage-23.2" />
+
   <!-- Device trees -->
   <project name="s0711482299-lgtm/device_lge_timelm" path="device/lge/timelm" remote="github" revision="Bliss" />
 
